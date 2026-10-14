@@ -1,1 +1,2 @@
-# ugeopgave-7-files-and-exceptions
+Emil Marinovic 
+emma1001@stud.ek.dk
