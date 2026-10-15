@@ -19,7 +19,7 @@ public class Main {
         items.add("Gin hass");
 
         try {
-            System.out.println(d.getItem(items, 5));
+            System.out.println(d.getItem(items, 2));
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }

@@ -12,8 +12,7 @@ public class Drink {
 
     public String getItem(ArrayList<String> items, int index) {
         if (index < 0 || index >= items.size()) {
-            throw new IllegalArgumentException("Indeks "
-                    + index + " er uden for range 0-" + (items.size() - 1));
+            throw new IllegalArgumentException("Index tallet er ude af range");
         }
         return items.get(index);
     }
