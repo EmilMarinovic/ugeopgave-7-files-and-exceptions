@@ -5,9 +5,10 @@ public class Drink {
     private int price;
     private int soldNumber;
 
-    public Drink(String name, int price) {
+    public Drink(String name, int price, int soldNumber) {
         this.name = name;
         this.price = price;
+        this.soldNumber = soldNumber;
     }
 
     public void setSoldNumber(int soldNumber) {
